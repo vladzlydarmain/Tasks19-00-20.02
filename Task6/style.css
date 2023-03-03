@@ -1,0 +1,41 @@
+*{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#content {
+    width: 500px;
+    margin: auto;
+}
+
+#arrowTop {
+    color: red;
+    background-color: gray;
+    opacity: 0.8;
+    font-size: 15px;
+    /* Вам нужно установить определенное позиционирование стрелочке, которое при прокрутке страницы не меняло свое положение! */
+    position:fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    width:min-content;
+    height:min-content;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+#arrowDown {
+    color: red;
+    opacity: 0.8;
+    background-color: gray;
+    font-size: 15px;
+    /* Вам нужно установить определенное позиционирование стрелочке, которое при прокрутке страницы не меняло свое положение! */
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    width:min-content;
+    height:min-content;
+    border: 5px solid black;
+    border-radius: 20px;
+}
